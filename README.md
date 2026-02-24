@@ -38,7 +38,7 @@ class AnasTber:
         self.role       = "Data Scientist Intern @ BNP Paribas CIB"
         self.location   = "Paris, France 🇫🇷"
         self.passions   = ["AI", "Data Science", "NLP", "Scalable Systems"]
-        self.languages  = ["French ", "English ", "Arabic ", "Spanish , "Turkish "]
+        self.languages  = ["French ", "English ", "Arabic ", "Spanish , "Turkish"]
 
     def say_hi(self):
         print("Thanks for dropping by! Let's build something great together. 🚀")

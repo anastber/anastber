@@ -56,7 +56,7 @@ me.say_hi()
 <td width="60px" align="center">🏦</td>
 <td>
 
-**Data Scientist Intern — BNP Paribas CIB**
+**Data Scientist Intern - Compliance CIB, Anti Money Laundering — BNP Paribas CIB**
 *Paris, France · 2025 – Present*
 
 Working on data science applications within the **Compliance CIB** team — applying ML techniques to real-world financial use cases.

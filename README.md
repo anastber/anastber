@@ -28,7 +28,6 @@
 
 > Engineering student at **Centrale Lyon** passionate about artificial intelligence.
 > I enjoy building data-driven systems and transforming research concepts into real-world applications.
-> Currently completing a 6-month internship as a **Data Scientist at BNP Paribas CIB**.
 
 ```python
 class AnasTber:
@@ -59,7 +58,14 @@ me.say_hi()
 **Data Scientist Intern - Compliance CIB, Anti Money Laundering — BNP Paribas CIB**
 *Paris, France · 2025 – Present*
 
-Working on data science applications within the **Compliance CIB** team — applying ML techniques to real-world financial use cases.
+- Delivered a regulator-approved Network based AML fraud-detection & investigation system covering the full cycle
+from raw data ingestion to compliance dashboards, operating on a 30M+ entity transaction dataset
+-  Modeled transaction networks using graph algorithms (BFS, DFS, Union-Find) for anomaly detection; designed a
+cycle detection system to identify money mule networks and circular transaction flows
+-  Engineered graph-based features (degree centrality, cycle membership, neighbor risk scores) to surface high-risk entities
+across multiple watchlists (Sayari, WikiRan, Crypto, bank sensitivity)
+- Processed and validated 100M+ financial records ensuring data integrity and regulatory compliance using Polars
+and PyArrow; built an interactive Streamlit dashboard for compliance analysts
 
 </td>
 </tr>

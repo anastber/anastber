@@ -37,7 +37,7 @@ class AnasTber:
         self.role       = "Data Scientist Intern @ BNP Paribas CIB"
         self.location   = "Paris, France 🇫🇷"
         self.passions   = ["AI", "Data Science", "NLP", "Scalable Systems"]
-        self.languages  = ["French ", "English ", "Arabic ", "Spanish , "Turkish"]
+        self.languages  = ["French ", "English ", "Arabic ", "Spanish" , "Turkish"]
 
     def say_hi(self):
         print("Thanks for dropping by! Let's build something great together. 🚀")
@@ -58,15 +58,14 @@ me.say_hi()
 **Data Scientist Intern - Compliance CIB, Anti Money Laundering — BNP Paribas CIB**
 *Paris, France · 2025 – Present*
 
-- Delivered a regulator-approved Network based AML fraud-detection & investigation system covering the full cycle
-from raw data ingestion to compliance dashboards, operating on a 30M+ entity transaction dataset
--  Modeled transaction networks using graph algorithms (BFS, DFS, Union-Find) for anomaly detection; designed a
-cycle detection system to identify money mule networks and circular transaction flows
--  Engineered graph-based features (degree centrality, cycle membership, neighbor risk scores) to surface high-risk entities
-across multiple watchlists (Sayari, WikiRan, Crypto, bank sensitivity)
-- Processed and validated 100M+ financial records ensuring data integrity and regulatory compliance using Polars
-and PyArrow; built an interactive Streamlit dashboard for compliance analysts
-
+- Delivered a regulator-approved network-based AML detection & investigation platform on a 10M+ entity / 40M+
+transaction dataset, from raw ingestion to compliance dashboards; built the pipeline in Polars / PyArrow lazy mode
+with watchlist enrichment
+- Designed the detection layer on engineered graph features (centrality, pass-through ratio, flagged-neighbour ratio): cycle
+detection (SCC + DFS) to surface money-mule rings, and an Isolation Forest model with SHAP explainability
+ranking suspicious communities with regulator-facing justifications
+- Shipped LLM-powered features into the Streamlit app: one-click AI risk summaries of a community graph and a
+multi-turn investigation chatbot answering
 </td>
 </tr>
 <tr>

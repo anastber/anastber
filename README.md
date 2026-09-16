@@ -29,23 +29,6 @@
 > Engineering student at **Centrale Lyon** passionate about artificial intelligence.
 > I enjoy building data-driven systems and transforming research concepts into real-world applications.
 
-```python
-class AnasTber:
-    def __init__(self):
-        self.name       = "Anas TBER"
-        self.school     = "Centrale Lyon"
-        self.role       = "Data Scientist Intern @ BNP Paribas CIB"
-        self.location   = "Paris, France 🇫🇷"
-        self.passions   = ["AI", "Data Science", "NLP", "Scalable Systems"]
-        self.languages  = ["French ", "English ", "Arabic ", "Spanish" , "Turkish"]
-
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something great together. 🚀")
-
-me = AnasTber()
-me.say_hi()
-```
-
 ---
 
 ## 💼 Experience

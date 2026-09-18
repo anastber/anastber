@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Anas%20TBER&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Engineering%20Student%20%C2%B7%20AI%20Enthusiast%20%C2%B7%20Data%20Scientist&descAlignY=55&descSize=18&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Anas%20TBER&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Engineering%20Student%20%C2%B7%20AI%20Enthusiast%20%C2%B7%20Data%20Scientist&descAlignY=55&descSize=18&animation=twinkling" alt="Anas TBER - Engineering Student, AI Enthusiast, Data Scientist" width="100%"/>
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+AI-powered+systems+%F0%9F%A4%96;Data+Scientist+%40+BNP+Paribas+CIB+%F0%9F%8F%A6;Centrale+Lyon+Engineer+%F0%9F%8E%93;Transforming+data+into+insights+%F0%9F%93%8A)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+AI-powered+systems+%F0%9F%A4%96;Centrale+Lyon+Engineer+%F0%9F%8E%93;Transforming+data+into+insights+%F0%9F%93%8A)](https://git.io/typing-svg)
 
 </div>
 
@@ -14,9 +14,9 @@
 
 <div align="center">
 
-📍 **Paris, France** &nbsp;|&nbsp; 🎓 **Centrale Lyon** &nbsp;|&nbsp; 💼 **Data Scientist @ BNP Paribas CIB**
+📍 **Paris, France** &nbsp;|&nbsp; 🎓 **Centrale Lyon** &nbsp;
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-anas--tber-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anas-tber)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-anas--tber-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anas-tber-99b994222/)
 [![GitHub](https://img.shields.io/badge/GitHub-anastber-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anastber)
 [![Email](https://img.shields.io/badge/Email-anas.tber%40etu.ec--lyon.fr-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anas.tber@etu.ec-lyon.fr)
 
@@ -39,16 +39,10 @@
 <td>
 
 **Data Scientist Intern - Compliance CIB, Anti Money Laundering — BNP Paribas CIB**
-*Paris, France · 2025 – Present*
+*Paris, France · January 2026 – July 2026*
 
-- Delivered a regulator-approved network-based AML detection & investigation platform on a 10M+ entity / 40M+
-transaction dataset, from raw ingestion to compliance dashboards; built the pipeline in Polars / PyArrow lazy mode
-with watchlist enrichment
-- Designed the detection layer on engineered graph features (centrality, pass-through ratio, flagged-neighbour ratio): cycle
-detection (SCC + DFS) to surface money-mule rings, and an Isolation Forest model with SHAP explainability
-ranking suspicious communities with regulator-facing justifications
-- Shipped LLM-powered features into the Streamlit app: one-click AI risk summaries of a community graph and a
-multi-turn investigation chatbot answering
+Built a network-based AML detection & investigation platform for a 10M+ entity / 40M+ transaction dataset — graph analytics feeding an Isolation Forest + SHAP model, with LLM-powered risk summaries and an investigation chatbot shipped into a Streamlit app.
+
 </td>
 </tr>
 <tr>
@@ -58,8 +52,7 @@ multi-turn investigation chatbot answering
 **Tech & Operations Intern — Gentle Mates**
 *Paris, France · April 2025 – November 2025*
 
-- Built an automated social media analytics dashboard using **Streamlit** + **Python** with Computer Vision (YOLO) & Text Classification (Regex)
-- Developed a cross-platform mobile app in **React Native** integrating **Valorant** & **Fortnite** APIs for real-time player analytics
+Built an automated social media analytics dashboard (Streamlit, YOLO, Regex) and a cross-platform React Native app integrating Valorant & Fortnite APIs for real-time player analytics.
 
 </td>
 </tr>
@@ -70,22 +63,20 @@ multi-turn investigation chatbot answering
 ## 📊 Selected Projects
 
 <details>
-<summary><b>🧬 Survival Analysis — ENS Data Challenge (QRT)</b></summary>
+<summary><b>🎹 AirKeys — Camera-Based Gesture Instrument</b></summary>
 <br>
 
-- Developed a **LightGBM** survival model achieving **0.7745 IPCW-C-index**
-- Applied feature engineering on genomic and clinical datasets
-- Optimized gradient boosting for **censored medical data**
+- Combined **MediaPipe**'s pretrained hand-tracking model with a self-trained **MLP** classifier (scikit-learn) on a self-collected, hand-labeled dataset, reaching **99.8% accuracy**
+- Enabled live personalization: users can teach the app new gestures on the fly via a from-scratch **k-nearest-neighbors** classifier, no retraining required
+- Built the full **Next.js/TypeScript** web app, turning recognized gestures into playable melodies in real time with **Tone.js**
 
 </details>
 
 <details>
-<summary><b>🤖 Research on Transformer Architectures & NLP</b></summary>
+<summary><b>💬 YouTube Sentiment Analyzer</b></summary>
 <br>
 
-- Studied attention mechanisms and embedding models (Word2Vec, GloVe, BERT)
-- Built a sentiment analysis model using **CamemBERT** achieving **95.91% accuracy**
-- Analyzed computational complexity of **Transformer vs Mamba** architectures
+- YouTube Sentiment Analysis web app built with **Streamlit**, **Hugging Face Transformers** (RoBERTa & BERT), the **YouTube Data API v3**, and **Plotly** visualizations
 
 </details>
 
@@ -96,6 +87,16 @@ multi-turn investigation chatbot answering
 - Implemented the ACO algorithm in Python (OOP)
 - Built an interactive **Tkinter** visualization interface
 - Applied metaheuristic optimization with probabilistic decision-making
+
+</details>
+
+<details>
+<summary><b>🧬 Survival Analysis — ENS Data Challenge (QRT)</b></summary>
+<br>
+
+- Developed a survival model achieving **0.7745 IPCW-C-index**
+- Applied feature engineering on genomic and clinical datasets
+- Optimized gradient boosting for **censored medical data**
 
 </details>
 
@@ -135,23 +136,12 @@ multi-turn investigation chatbot answering
 
 </div>
 
----
-
-## 🌍 Languages
-
-| Language | Level |
-|----------|-------|
-| French | Native |
-| English | Fluent |
-| Arabic | Native |
-| Spanish | Intermediate |
-| Turkish | Intermediate |
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=twinkling" alt="" width="100%"/>
 
 *Engineering student at Centrale Lyon focused on AI, data science, and scalable software systems.*
 

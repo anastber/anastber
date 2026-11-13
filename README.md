@@ -1,7 +1,7 @@
 <h1 align="center">Anas Tber</h1>
 
 <p align="center">
-  <b>Final-year Engineering Student · Machine Learning & AI Engineering</b><br/>
+  <b>Final-year Engineering Student · Software & AI Engineering</b><br/>
   École Centrale de Lyon · Lyon, France
 </p>
 
@@ -12,15 +12,15 @@
 </p>
 
 <p align="center">
-  🔎 <b>Open to a 6-month end-of-studies internship from late March 2027</b><br/>
-  ML Engineering · AI Engineering · Applied AI · Software Engineering
+  🛠️ <b>I build ML systems, LLM products, data pipelines and AI tools, from the model to production</b><br/>
+  Software Engineering · ML Engineering · AI Engineering · Applied AI
 </p>
 
 ---
 
 ### About
 
-Final-year engineering student at École Centrale de Lyon, specialising in data science and machine learning. I care about understanding *why* models work, not just *that* they do, and I'm most interested in the engineering side of AI: taking models from notebook to production, building reliable ML pipelines, and shipping AI features people actually use. 
+Final-year engineering student at École Centrale de Lyon. I work on software and machine learning: building data pipelines, backends and AI features, and training and evaluating the models behind them.
 
 ---
 
@@ -29,43 +29,41 @@ Final-year engineering student at École Centrale de Lyon, specialising in data 
 **Data Scientist Intern — BNP Paribas CIB** · *Compliance, Anti-Money Laundering*
 <sub>Paris · Jan. 2026 – Jul. 2026</sub>
 
-- Delivered a **regulator-approved** network-based AML detection & investigation platform on a **10M+ entity / 40M+ transaction** dataset, from raw ingestion (Polars / PyArrow lazy mode) to compliance dashboards
-- Designed the detection layer on engineered graph features: cycle detection (SCC + DFS) to surface money-mule rings, and an **Isolation Forest + SHAP** model ranking suspicious communities with regulator-facing justifications
-- Shipped **LLM-powered features** into the Streamlit app: one-click risk summaries of a community graph and a multi-turn investigation chatbot over an account's 3-hop neighbourhood
-- Sole owner of the repository: led the refactor (modular architecture, centralised configuration) and wrote the technical documentation for handover to IT
+- Built a **regulator-approved** AML detection platform on **40M+ transactions**: graph analytics, **Isolation Forest + SHAP**, LLM risk summaries and an investigation chatbot
+- Sole owner of the codebase, from the Polars data pipeline to the handover to IT
 
 **Tech & Operations Intern — Gentle Mates** · *Professional Esports*
 <sub>Paris · Apr. 2025 – Nov. 2025</sub>
 
-- Built an automated social media analytics dashboard combining **computer vision (YOLO)** for sponsor logo detection and NLP / Regex for brand mention tracking
-- Trained a YOLO model on a custom-built dataset of sponsor logos
-- Built a cross-platform **React Native** app integrating Valorant & Fortnite APIs for real-time player analytics
+- Trained a **YOLO** sponsor-logo detector and built the analytics dashboard around it
+- Contributed to internal software and AI tools for analytics and operations
+
+**Founding Engineer — FreyIA** · *AI Waste-Sorting Startup*
+<sub>Lyon · 2023 – 2025</sub>
+
+- Built the full-stack platform and IoT APIs, from academic project to **award-winning startup**
 
 ---
 
 ### Selected Projects
 
 #### 🎹 AirKeys — Camera-Based Gesture Instrument
-<sub>Applied ML & Evaluation · 2026 – present · <a href="https://github.com/anastber/REPO_NAME">Code</a> · <a href="LIVE_DEMO_URL">Live demo</a></sub>
+<sub>Computer Vision · Applied ML · 2026 – present · <a href="https://github.com/anastber/air-keys">Code</a> · <a href="https://air-keys-delta.vercel.app/">Live demo</a></sub>
 
-- Real-time hand gesture recognition running fully in the browser: MediaPipe landmarks, a self-trained classifier and on-the-fly personalisation via a from-scratch k-NN
-- **Leakage-safe evaluation** on 12.5k hands from 9k subjects (HaGRID): subject-disjoint splits, deduplication, grouped CV, bootstrap CIs — showed a single-user model's 99.8% accuracy drops to 72% on unseen people, while a multi-subject model reaches 98%
-- Now working on open-set rejection and temporal smoothing after live-webcam testing
-- Stack: Python, scikit-learn, MediaPipe, Next.js / TypeScript, Tone.js
-
+Play music with hand gestures, entirely in the browser: **MediaPipe** hand landmarks, a self-trained **classifier** and a from-scratch **k-NN** to teach new gestures live. Evaluated on 9k people from the HaGRID dataset; now working on open-set rejection and temporal smoothing.
+<br/><sub>Python · scikit-learn · MediaPipe · TypeScript · Next.js</sub>
 
 #### 📚 arXiv Research Radar — RAG over Recent Papers
-<sub>RAG Pipeline · 2026 – present · <a href="https://github.com/anastber/REPO_NAME">Code</a></sub>
- 
-- End-to-end RAG system answering questions over the latest arXiv papers with **per-claim citations**: PDF ingestion, section-aware chunking, Sentence-Transformers + FAISS retrieval, answers grounded only in retrieved sources (prompt-injection guard)
-- Served via **FastAPI + Streamlit** with cost controls (per-IP rate limiting, atomic SQLite daily cap, relevance threshold that skips the LLM on off-topic queries)
-- Index refreshed weekly by a **GitHub Actions** pipeline; unit and API tests run in CI on every push
-- Now building a **measurement-first evaluation framework** on a frozen 437-paper benchmark (Recall@k, MRR, nDCG, LLM-judged faithfulness and citation precision) to drive the next steps — hybrid search, cross-encoder reranking and scaling to 5–10k papers — each validated by ablation
+<sub>LLM · RAG · 2026 – present · <a href="https://github.com/anastber/arxiv-research-radar">Code</a></sub>
+
+Ask questions about the latest arXiv papers and get answers with a citation for every claim: **FAISS** retrieval, a **FastAPI** backend and a weekly ingestion pipeline in **CI**. Now building an evaluation benchmark to improve retrieval.
+<br/><sub>Python · Sentence-Transformers · FAISS · FastAPI · Streamlit · GitHub Actions</sub>
 
 #### Other work
 
-- **Survival Analysis — ENS Data Challenge (QRT):** gradient boosting on censored genomic & clinical data, **0.7745 IPCW C-index**
-- **YouTube Sentiment Analyzer:** RoBERTa / BERT (Hugging Face) on comments fetched via the YouTube Data API, with Plotly visualisations
+- **Survival Analysis — ENS Data Challenge (QRT)** · *Tabular ML:* gradient boosting on censored genomic and clinical data, 0.7745 IPCW C-index
+- **YouTube Sentiment Analyzer** · *NLP:* comment sentiment with RoBERTa and BERT (Hugging Face Transformers)
+- **Ant Colony Optimization** · *Algorithms:* shortest-path search with a live Tkinter visualisation
 
 ---
 
@@ -73,10 +71,11 @@ Final-year engineering student at École Centrale de Lyon, specialising in data 
 
 | | |
 |---|---|
-| **Machine Learning** | PyTorch · scikit-learn · LightGBM · SHAP · Pandas · Polars · NumPy |
+| **Languages** | Python · TypeScript · JavaScript · SQL |
+| **Machine Learning** | PyTorch · scikit-learn · LightGBM · SHAP · NumPy |
 | **LLM & NLP** | RAG (embeddings, FAISS) · LangChain · Transformers · Gemini / Anthropic / OpenAI APIs · Prompt engineering |
 | **Computer Vision** | MediaPipe · OpenCV · YOLO |
-| **Engineering & Deployment** | FastAPI · Streamlit · GitHub Actions · SQL / PostgreSQL · Git |
-| **Software Development** | Python · JavaScript |
+| **Data Engineering** | Pandas · Polars · PyArrow · NetworkX · PostgreSQL · Supabase |
+| **Backend & Deployment** | FastAPI · Streamlit · Next.js · GitHub Actions · Git |
 
 <sub>Languages: French (native) · Arabic (native) · English (fluent) · Turkish (intermediate) · Spanish (beginner)</sub>
